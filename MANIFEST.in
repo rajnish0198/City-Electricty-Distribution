@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cityeletricitydistribution *.css
+recursive-include cityeletricitydistribution *.csv
+recursive-include cityeletricitydistribution *.html
+recursive-include cityeletricitydistribution *.ico
+recursive-include cityeletricitydistribution *.js
+recursive-include cityeletricitydistribution *.json
+recursive-include cityeletricitydistribution *.md
+recursive-include cityeletricitydistribution *.png
+recursive-include cityeletricitydistribution *.py
+recursive-include cityeletricitydistribution *.svg
+recursive-include cityeletricitydistribution *.txt
+recursive-exclude cityeletricitydistribution *.pyc
