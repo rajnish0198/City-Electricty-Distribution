@@ -1,0 +1,36 @@
+{
+ "chart_name": "Consumer Monthly Bill Pay",
+ "chart_type": "Report",
+ "creation": "2022-04-12 10:44:34.347894",
+ "custom_options": "{\"x_field\": \"consumer_details\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"payment_amount\", \"color\": \"#4463F0\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"consume_unit\", \"color\": \"#39E4A5\"}], \"y_fields\": [\"payment_amount\", \"consume_unit\"], \"colors\": [\"#4463F0\", \"#39E4A5\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-04-12 12:22:57.800227",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Consumer Monthly Bill Pay",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Electricity Bill",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "consumer_details",
+ "y_axis": [
+  {
+   "color": "#4463F0",
+   "y_field": "payment_amount"
+  },
+  {
+   "color": "#39E4A5",
+   "y_field": "consume_unit"
+  }
+ ]
+}

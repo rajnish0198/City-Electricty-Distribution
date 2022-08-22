@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-05 16:47:56.885089",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fixed_unit",
+  "fixed_charge",
+  "penalty",
+  "monthly_reading_date",
+  "per_unit_charge_for_residential",
+  "per_unit_charge_for_comercial",
+  "sub_divison_open_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "fixed_unit",
+   "fieldtype": "Int",
+   "label": "Fixed Unit"
+  },
+  {
+   "fieldname": "fixed_charge",
+   "fieldtype": "Int",
+   "label": "Fixed Charge"
+  },
+  {
+   "fieldname": "penalty",
+   "fieldtype": "Int",
+   "label": "Penalty"
+  },
+  {
+   "fieldname": "monthly_reading_date",
+   "fieldtype": "Data",
+   "label": "Monthly Reading Date"
+  },
+  {
+   "fieldname": "per_unit_charge_for_residential",
+   "fieldtype": "Int",
+   "label": "Per unit Charge for Residential"
+  },
+  {
+   "fieldname": "per_unit_charge_for_comercial",
+   "fieldtype": "Int",
+   "label": "Per unit Charge for Comercial"
+  },
+  {
+   "fieldname": "sub_divison_open_time",
+   "fieldtype": "Data",
+   "label": "Sub Divison Open Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-03-07 17:27:19.871318",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "City Electricity Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

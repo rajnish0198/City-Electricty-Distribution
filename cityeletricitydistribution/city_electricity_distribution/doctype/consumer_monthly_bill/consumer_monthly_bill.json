@@ -1,0 +1,208 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2022-03-31 10:36:52.497602",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bill_deatils_section",
+  "bill_no",
+  "column_break_3",
+  "bill_date",
+  "section_break_3",
+  "consumer_details",
+  "column_break_5",
+  "consumer_type",
+  "section_break_7",
+  "per_unit_cost",
+  "column_break_9",
+  "consume_unit",
+  "section_break_11",
+  "payment_amount",
+  "column_break_13",
+  "payment_date",
+  "section_break_15",
+  "incentive_up_to_date",
+  "column_break_17",
+  "payment_amt",
+  "section_break_19",
+  "connection_date",
+  "column_break_21",
+  "electricity_payment_month",
+  "section_break_23",
+  "scan_this_qr_code_for_upi_payment",
+  "column_break_25",
+  "power_consumption"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_deatils_section",
+   "fieldtype": "Section Break",
+   "label": "Bill Deatils"
+  },
+  {
+   "fetch_from": "consumer_details.bill_no",
+   "fieldname": "bill_no",
+   "fieldtype": "Link",
+   "label": "Bill No",
+   "options": "Consumer Bill",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bill_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Bill Date"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "bill_no.consumer_details",
+   "fieldname": "consumer_details",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "bill_no.consumer_type",
+   "fieldname": "consumer_type",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Type"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "bill_no.per_unit_cost",
+   "fieldname": "per_unit_cost",
+   "fieldtype": "Read Only",
+   "label": "Per unit Cost"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "consume_unit",
+   "fieldtype": "Int",
+   "label": "Consume Unit"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_amount",
+   "fieldtype": "Currency",
+   "label": "Payment Amount"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_date",
+   "fieldtype": "Date",
+   "label": "Payment Date"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "incentive_up_to_date",
+   "fieldtype": "Date",
+   "label": "Incentive up to Date"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_amt",
+   "fieldtype": "Currency",
+   "label": "Payment Amt after Incentive Date"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "bill_no.connection_date",
+   "fieldname": "connection_date",
+   "fieldtype": "Read Only",
+   "label": "Connection date "
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "electricity_payment_month",
+   "fieldtype": "Data",
+   "label": "Bill Month"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "scan_this_qr_code_for_upi_payment",
+   "fieldtype": "Barcode",
+   "label": "Scan this QR code for UPI Payment"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "power_consumption",
+   "fieldtype": "Table",
+   "label": "Power_Consumption",
+   "options": "Power Consumption"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-31 12:05:43.431487",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Consumer Monthly Bill",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

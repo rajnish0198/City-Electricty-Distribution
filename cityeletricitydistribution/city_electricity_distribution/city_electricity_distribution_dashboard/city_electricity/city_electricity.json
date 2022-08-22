@@ -1,0 +1,37 @@
+{
+ "cards": [
+  {
+   "card": "No. of Subdivisions"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Consumer Pay Amount",
+   "width": "Half"
+  },
+  {
+   "chart": "Subdivision Collection",
+   "width": "Half"
+  },
+  {
+   "chart": "Divisions in Substation",
+   "width": "Full"
+  },
+  {
+   "chart": "Consumer Monthly Bill Pay",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-03-29 09:11:46.485574",
+ "dashboard_name": "City Electricity",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-04-12 10:44:34.649957",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "City Electricity",
+ "owner": "Administrator"
+}

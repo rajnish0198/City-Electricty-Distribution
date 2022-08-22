@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{no_of_bill}",
+ "creation": "2022-03-08 14:46:22.372996",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "no_of_bill"
+ ],
+ "fields": [
+  {
+   "fieldname": "no_of_bill",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "No. of Bill",
+   "options": "Consumer Bill"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-21 19:19:52.713874",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Total Bills Of Subdivision",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

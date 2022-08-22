@@ -1,0 +1,43 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2022-03-09 08:52:49.104481",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "electricity_payment_month",
+   "fieldtype": "Data",
+   "label": "Bill Month",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "consumer_details",
+   "fieldtype": "Data",
+   "label": "Consumer Name",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2022-04-12 10:40:22.827047",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Electricity Bill",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select consumer_details,electricity_payment_month,consumer_type,consume_unit,payment_amount,payment_date from `tabConsumer Monthly Bill`;\n",
+ "ref_doctype": "Consumer Monthly Bill",
+ "report_name": "Electricity Bill",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-08 09:09:20.936307",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bill_number",
+  "bill_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_number",
+   "fieldtype": "Link",
+   "label": "Bill Number",
+   "options": "Consumer Bill"
+  },
+  {
+   "fetch_from": "bill_number.payment_amount",
+   "fieldname": "bill_amount",
+   "fieldtype": "Read Only",
+   "label": "Bill Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-08 11:28:04.410221",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Total Bill Collection",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

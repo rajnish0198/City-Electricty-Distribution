@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2022-03-05 16:13:51.027676",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "complain_detail_section",
+  "consumer_no",
+  "complain_no",
+  "category",
+  "complain_date",
+  "status",
+  "division",
+  "complain_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "complain_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Complain Detail"
+  },
+  {
+   "fieldname": "consumer_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Name.",
+   "options": "Consumer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Category",
+   "options": "Connection Cut\nMeter Falult\nMore Chargers\nPower Cut"
+  },
+  {
+   "fieldname": "complain_date",
+   "fieldtype": "Date",
+   "label": "Complain Date"
+  },
+  {
+   "fieldname": "complain_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Complain No."
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Solve\nPending\npartial pending"
+  },
+  {
+   "fetch_from": "consumer_no.division_office",
+   "fieldname": "division",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Division"
+  },
+  {
+   "fieldname": "complain_detail",
+   "fieldtype": "Long Text",
+   "label": "Complain Detail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-14 17:13:05.660061",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Complains",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

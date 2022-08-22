@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{consumer_name}-{###}",
+ "creation": "2022-03-05 15:00:01.999937",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "consumer_detail_section",
+  "consumer_name",
+  "consumer_no",
+  "address",
+  "mobile_no",
+  "consumer_connection_type",
+  "division_office"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumer_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Consumer Detail"
+  },
+  {
+   "fieldname": "consumer_name",
+   "fieldtype": "Data",
+   "label": "Consumer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "consumer_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Invoice No."
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "consumer_connection_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Connection type",
+   "options": "Residential\nCommercial"
+  },
+  {
+   "fieldname": "division_office",
+   "fieldtype": "Link",
+   "label": "Division Office",
+   "options": "SubDivision Office"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-25 10:28:18.405892",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Consumer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

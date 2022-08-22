@@ -1,0 +1,22 @@
+{
+ "creation": "2022-03-29 11:10:47.515634",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "No. of Subdivisions",
+ "modified": "2022-03-31 16:18:45.989953",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "No. of Subdivisions",
+ "owner": "Administrator",
+ "report_field": "collection_amount",
+ "report_function": "Sum",
+ "report_name": "Subdivision Collection",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

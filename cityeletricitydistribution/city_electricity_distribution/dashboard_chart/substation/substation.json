@@ -1,0 +1,32 @@
+{
+ "chart_name": "SubStation",
+ "chart_type": "Report",
+ "creation": "2022-03-31 16:12:01.719756",
+ "custom_options": "{\"x_field\": \"sub_station\", \"chart_type\": \"Pie\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"no._of_subdivisions\", \"color\": \"#39E4A5\"}], \"y_fields\": [\"no._of_subdivisions\"], \"colors\": [\"#39E4A5\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-03-31 16:12:01.953767",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "SubStation",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Substation Report",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "sub_station",
+ "y_axis": [
+  {
+   "color": "#39E4A5",
+   "y_field": "no._of_subdivisions"
+  }
+ ]
+}

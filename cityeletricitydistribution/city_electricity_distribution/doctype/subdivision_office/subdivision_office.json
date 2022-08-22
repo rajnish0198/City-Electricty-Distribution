@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{subdivision_name}",
+ "creation": "2022-03-05 14:32:02.108130",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subdivision_office_section",
+  "subdivision_name",
+  "address",
+  "opening_time",
+  "help_no",
+  "website",
+  "sub_station"
+ ],
+ "fields": [
+  {
+   "fieldname": "subdivision_office_section",
+   "fieldtype": "Section Break",
+   "label": "SubDivision Office"
+  },
+  {
+   "fieldname": "subdivision_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SubDivision Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address"
+  },
+  {
+   "default": "10:00am -4:00pm",
+   "fieldname": "opening_time",
+   "fieldtype": "Data",
+   "label": "Opening Time"
+  },
+  {
+   "fieldname": "help_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Help No."
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Website"
+  },
+  {
+   "fieldname": "sub_station",
+   "fieldtype": "Link",
+   "label": "Sub_Station",
+   "options": "Substation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-24 16:47:29.692686",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "SubDivision Office",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

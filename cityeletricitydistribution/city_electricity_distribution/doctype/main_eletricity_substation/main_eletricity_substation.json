@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{distribution_name}",
+ "creation": "2022-03-05 14:21:14.056083",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "main_substation_section",
+  "distribution_name",
+  "address",
+  "capacity",
+  "area_occupied",
+  "revenue",
+  "no_of_substation_connected",
+  "contact_us"
+ ],
+ "fields": [
+  {
+   "fieldname": "main_substation_section",
+   "fieldtype": "Section Break",
+   "label": "Main Substation"
+  },
+  {
+   "fieldname": "distribution_name",
+   "fieldtype": "Data",
+   "label": "Distribution Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "area_occupied",
+   "fieldtype": "Data",
+   "label": "Area Occupied"
+  },
+  {
+   "fieldname": "revenue",
+   "fieldtype": "Data",
+   "label": "Revenue"
+  },
+  {
+   "fieldname": "no_of_substation_connected",
+   "fieldtype": "Data",
+   "label": "No. of SubStation Connected"
+  },
+  {
+   "fieldname": "contact_us",
+   "fieldtype": "HTML Editor",
+   "label": "Contact us"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-17 10:19:23.271458",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Main Eletricity Substation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

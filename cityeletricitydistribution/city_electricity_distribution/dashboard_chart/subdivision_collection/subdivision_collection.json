@@ -1,0 +1,36 @@
+{
+ "chart_name": "Subdivision Collection",
+ "chart_type": "Report",
+ "creation": "2022-03-31 15:41:51.177001",
+ "custom_options": "{\"x_field\": \"bill_genrated_by\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"collection_amount\", \"color\": \"#761ACB\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"bills_in_subdivision\", \"color\": \"#CB2929\"}], \"y_fields\": [\"collection_amount\", \"bills_in_subdivision\"], \"colors\": [\"#761ACB\", \"#CB2929\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-03-31 15:41:51.471553",
+ "modified_by": "Administrator",
+ "module": "City Electricity Distribution",
+ "name": "Subdivision Collection",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Subdivision Collection",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "bill_genrated_by",
+ "y_axis": [
+  {
+   "color": "#761ACB",
+   "y_field": "collection_amount"
+  },
+  {
+   "color": "#CB2929",
+   "y_field": "bills_in_subdivision"
+  }
+ ]
+}
